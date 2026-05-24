@@ -84,13 +84,13 @@ const ChannelPromo = () => (
             <div className="absolute bottom-0 left-0 right-0 p-5">
                 <div className="flex items-center gap-2 mb-2">
                     <span className="bg-[#24A1DE] text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider shadow-sm">
-                        ✓ Official
+                        ✓ 
                     </span>
                     <span className="text-gray-300 text-[10px] font-medium flex items-center gap-1">
-                        <i className="fas fa-users"></i> Community Channel
+                        <i className="fas fa-users"></i> 
                     </span>
                 </div>
-                <h3 className="text-xl font-bold text-white drop-shadow-md">Telegram Channel</h3>
+                <h3 className="text-xl font-bold text-white drop-shadow-md">rest api no login no keys 🔥</h3>
             </div>
         </div>
         <div className="p-5 pt-3 bg-[#121215]">
@@ -259,10 +259,10 @@ export default async function HomePage() {
                     Official Domains demo
                 </h3>
                 <div className="space-y-2">
-                    <a href="https://jansenxpuru.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
+                    <a href="https://jansenxpuru-apii.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">https://jansenxpuru-apis.vercel.app</span>
+                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">https://jansenxpuru-apii.vercel.app</span>
                         </div>
                         <span className="text-[9px] bg-green-500/10 text-green-400 px-2 py-1 rounded-full font-bold uppercase tracking-wider border border-green-500/20">Stabil</span>
                     </a>
