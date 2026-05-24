@@ -318,7 +318,7 @@
       "method": "POST",
       "path": "/api/ai/screenapp",
       "responseType": "json",
-      "example": "async function askImage() {\n   const res = await fetch('/api/ai/screenapp', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({\n       \"url\": \"https://puruboy-api.vercel.app/favicon.jpg\",\n       \"question\": \"Jelaskan gambar ini dengan detail\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function askImage() {\n   const res = await fetch('/api/ai/screenapp', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({\n       \"url\": \"favicon.jpg\",\n       \"question\": \"Jelaskan gambar ini dengan detail\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
