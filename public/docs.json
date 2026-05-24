@@ -1597,7 +1597,7 @@
       "method": "POST",
       "path": "/api/tools/audioedit",
       "responseType": "json",
-      "example": "async function editAudio() {\n   const res = await fetch('/api/tools/audioedit', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://puruboy-api.vercel.app/example.mp4\",\n       \"effect\": \"nightcore\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function editAudio() {\n   const res = await fetch('/api/tools/audioedit', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://jansenxpuru-apii.vercel.app/example.mp4\",\n       \"effect\": \"nightcore\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
@@ -1622,7 +1622,7 @@
       "method": "POST",
       "path": "/api/tools/autoclip",
       "responseType": "json",
-      "example": "async function generateClip() {\n   const res = await fetch('/api/tools/autoclip', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://github.com/purujawa06-bot/My-db/raw/refs/heads/main/video/videoplayback.mp4\" \n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function generateClip() {\n   const res = await fetch('/api/tools/autoclip', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"\" \n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
@@ -1812,7 +1812,7 @@
       "method": "POST",
       "path": "/api/tools/mp4tomp3",
       "responseType": "json",
-      "example": "async function convert() {\n   const res = await fetch('/api/tools/mp4tomp3', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://puruboy-api.vercel.app/example.mp4\" })\n   });\n   \n   const reader = res.body.getReader();\n   const decoder = new TextDecoder();\n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     console.log(decoder.decode(value));\n   }\n }",
+      "example": "async function convert() {\n   const res = await fetch('/api/tools/mp4tomp3', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://jansenxpuru-apii.vercel.app/example.mp4\" })\n   });\n   \n   const reader = res.body.getReader();\n   const decoder = new TextDecoder();\n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     console.log(decoder.decode(value));\n   }\n }",
       "params": [
         {
           "name": "url",
@@ -1880,7 +1880,7 @@
       "method": "POST",
       "path": "/api/tools/removebg",
       "responseType": "json",
-      "example": "// Contoh penggunaan\n async function removeBg() {\n   try {\n     const response = await fetch('/api/tools/removebg', {\n       method: 'POST',\n       headers: { 'Content-Type': 'application/json' },\n       body: JSON.stringify({ \n         \"url\": \"https://puruboy-api.vercel.app/example.jpg\" \n       })\n     });\n \n     const data = await response.json();\n     console.log(data); \n     // Output: { status: 'success', url: 'https://domain.com/api/media/...' }\n   } catch (error) {\n     console.error('Error:', error.message);\n   }\n }\n \n removeBg();",
+      "example": "// Contoh penggunaan\n async function removeBg() {\n   try {\n     const response = await fetch('/api/tools/removebg', {\n       method: 'POST',\n       headers: { 'Content-Type': 'application/json' },\n       body: JSON.stringify({ \n         \"url\": \"https://jansenxpuru-apii.vercel.app/example.jpg\" \n       })\n     });\n \n     const data = await response.json();\n     console.log(data); \n     // Output: { status: 'success', url: 'https://domain.com/api/media/...' }\n   } catch (error) {\n     console.error('Error:', error.message);\n   }\n }\n \n removeBg();",
       "params": [
         {
           "name": "url",
@@ -1898,7 +1898,7 @@
       "method": "POST",
       "path": "/api/tools/removebg-v2",
       "responseType": "json",
-      "example": "// Contoh penggunaan\n async function removeBg() {\n   try {\n     const response = await fetch('/api/tools/removebg-v2', {\n       method: 'POST',\n       headers: { 'Content-Type': 'application/json' },\n       body: JSON.stringify({ \n         \"url\": \"https://puruboy-api.vercel.app/example.jpg\" \n       })\n     });\n \n     const data = await response.json();\n     console.log(data); \n   } catch (error) {\n     console.error('Error:', error.message);\n   }\n }",
+      "example": "// Contoh penggunaan\n async function removeBg() {\n   try {\n     const response = await fetch('/api/tools/removebg-v2', {\n       method: 'POST',\n       headers: { 'Content-Type': 'application/json' },\n       body: JSON.stringify({ \n         \"url\": \"https://jansenxpuru-apii.vercel.app/example.jpg\" \n       })\n     });\n \n     const data = await response.json();\n     console.log(data); \n   } catch (error) {\n     console.error('Error:', error.message);\n   }\n }",
       "params": [
         {
           "name": "url",
@@ -1916,7 +1916,7 @@
       "method": "POST",
       "path": "/api/tools/reviva",
       "responseType": "json",
-      "example": "async function colorizeImage() {\n   const response = await fetch('/api/tools/reviva', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://puruboy-api.vercel.app/example.jpg\" \n     })\n   });\n \n   const reader = response.body.getReader();\n   const decoder = new TextDecoder();\n   \n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     const text = decoder.decode(value);\n     if(text.includes('[true]')) {\n        const retrieveUrl = text.replace('[true]', '').trim();\n        console.log(\"Data tersedia di:\", retrieveUrl);\n     }\n   }\n }",
+      "example": "async function colorizeImage() {\n   const response = await fetch('/api/tools/reviva', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://jansenxpuru-apii.vercel.app/example.jpg\" \n     })\n   });\n \n   const reader = response.body.getReader();\n   const decoder = new TextDecoder();\n   \n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     const text = decoder.decode(value);\n     if(text.includes('[true]')) {\n        const retrieveUrl = text.replace('[true]', '').trim();\n        console.log(\"Data tersedia di:\", retrieveUrl);\n     }\n   }\n }",
       "params": [
         {
           "name": "url",
@@ -1952,7 +1952,7 @@
       "method": "POST",
       "path": "/api/tools/stabilizer",
       "responseType": "json",
-      "example": "async function stabilize() {\n   const res = await fetch('/api/tools/stabilizer', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://puruboy-api.vercel.app/example.mp4\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function stabilize() {\n   const res = await fetch('/api/tools/stabilizer', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://jansenxpuru-apii.vercel.app/example.mp4\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
@@ -1970,7 +1970,7 @@
       "method": "POST",
       "path": "/api/tools/unblur",
       "responseType": "json",
-      "example": "// Contoh penggunaan SSE di client\n async function unblurImage() {\n   const response = await fetch('/api/tools/unblur', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://puruboy-api.vercel.app/example.jpg\" })\n   });\n   \n   const reader = response.body.getReader();\n   const decoder = new TextDecoder();\n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     const text = decoder.decode(value);\n     if(text.includes('[true]')) {\n        const url = text.replace('[true]', '').trim();\n        console.log(\"Success:\", url);\n     }\n   }\n }",
+      "example": "// Contoh penggunaan SSE di client\n async function unblurImage() {\n   const response = await fetch('/api/tools/unblur', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://jansenxpuru-apii.vercel.app/example.jpg\" })\n   });\n   \n   const reader = response.body.getReader();\n   const decoder = new TextDecoder();\n   while (true) {\n     const { done, value } = await reader.read();\n     if (done) break;\n     const text = decoder.decode(value);\n     if(text.includes('[true]')) {\n        const url = text.replace('[true]', '').trim();\n        console.log(\"Success:\", url);\n     }\n   }\n }",
       "params": [
         {
           "name": "url",
@@ -1988,7 +1988,7 @@
       "method": "POST",
       "path": "/api/tools/upscale",
       "responseType": "json",
-      "example": "// Contoh penggunaan SSE\n async function upscaleImage() {\n   const response = await fetch('/api/tools/upscale', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://puruboy-api.vercel.app/example.jpg\" })\n   });\n   \n   const reader = response.body.getReader();\n   // Read stream...\n }",
+      "example": "// Contoh penggunaan SSE\n async function upscaleImage() {\n   const response = await fetch('/api/tools/upscale', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://jansenxpuru-apii.vercel.app/example.jpg\" })\n   });\n   \n   const reader = response.body.getReader();\n   // Read stream...\n }",
       "params": [
         {
           "name": "url",
