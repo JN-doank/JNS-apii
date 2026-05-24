@@ -21,7 +21,7 @@ const Hero = () => (
             </div>
         </div>
         <h1 className="text-5xl font-extrabold text-primary mb-3 tracking-tight mt-4">
-            PuruBoy <span className="gradient-text">API</span>
+            JansenXPuru <span className="gradient-text">API</span>
         </h1>
         <p className="text-secondary text-sm leading-relaxed max-w-sm mx-auto font-medium">
             Platform API modular terbaik dengan integrasi AI, Downloader, dan Anime Streaming. Gratis, cepat, dan mudah digunakan.
@@ -98,13 +98,13 @@ const ChannelPromo = () => (
                 Dapatkan notifikasi update fitur, info maintenance, dan bagi-bagi script gratis langsung dari sumbernya.
             </p>
             <a 
-                href="https://t.me/puruboy_hub" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-[#24A1DE] hover:bg-[#1b8abf] text-white font-bold py-3 rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2 shadow-lg shadow-blue-900/20"
             >
-                <i className="fab fa-telegram text-lg"></i>
-                <span>Gabung Channel</span>
+                <i className="fab -telegram text-lg"></i>
+                <span>free rest api untuk developer Indonesia</span>
             </a>
         </div>
     </div>
@@ -112,7 +112,7 @@ const ChannelPromo = () => (
 
 async function getContributors() {
     try {
-        const res = await fetch('https://api.github.com/repos/purujawa06-bot/Na-api/contributors?per_page=15', {
+        const res = await fetch('#', {
             next: { revalidate: 3600 }
         });
         if (!res.ok) return [];
@@ -194,7 +194,7 @@ export default async function HomePage() {
                             <i className="fas fa-crown text-yellow-500 text-xs"></i> Top Contributors
                         </h2>
                         <a 
-                            href="https://github.com/purujawa06-bot/Na-api" 
+                            href="#" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-[10px] bg-white/5 hover:bg-white/10 px-3 py-1 rounded-full text-secondary transition-colors border border-default"
@@ -256,22 +256,22 @@ export default async function HomePage() {
                     <div className="w-7 h-7 rounded-lg bg-accent/10 flex items-center justify-center">
                         <i className="fas fa-globe text-accent text-xs"></i>
                     </div>
-                    Official Domains
+                    Official Domains demo
                 </h3>
                 <div className="space-y-2">
                     <a href="https://www.puruboy.kozow.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">www.puruboy.kozow.com</span>
+                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">https://jansenxpuru-apis.vercel.app</span>
                         </div>
                         <span className="text-[9px] bg-green-500/10 text-green-400 px-2 py-1 rounded-full font-bold uppercase tracking-wider border border-green-500/20">Stabil</span>
                     </a>
                     <a href="https://puruboy-api.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
-                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">puruboy-api.vercel.app</span>
+                            <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors"></span>
                         </div>
-                        <span className="text-[9px] bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full font-bold uppercase tracking-wider border border-blue-500/20">Cloud</span>
+                        <span className="text-[9px] bg-blue-500/10 text-blue-400 px-2 py-1 rounded-full font-bold uppercase tracking-wider border border-blue-500/20">Cloud( metot)</span>
                     </a>
                 </div>
             </div>
@@ -279,7 +279,7 @@ export default async function HomePage() {
             {/* Footer CTA */}
             <div className="mt-8 p-5 native-card text-center border-dashed border-accent/30 bg-gradient-to-b from-accent/5 to-transparent">
                 <i className="fas fa-code text-accent text-2xl mb-3 block"></i>
-                <p className="text-xs text-secondary mb-4 leading-relaxed">Mulai integrasikan PuruBoy API ke proyek kamu sekarang. Gratis, tanpa auth.</p>
+                <p className="text-xs text-secondary mb-4 leading-relaxed">Mulai integrasikan JansenXPuru API ke proyek kamu sekarang. Gratis, tanpa auth.</p>
                 <Link href="/docs" className="inline-flex items-center gap-2 bg-accent text-white text-sm font-bold px-6 py-3 rounded-xl shadow-lg shadow-accent/25 hover:bg-accent-hover transition-all active:scale-95">
                     <i className="fas fa-rocket text-sm"></i>
                     Mulai Sekarang
