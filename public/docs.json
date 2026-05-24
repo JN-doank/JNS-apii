@@ -1201,7 +1201,7 @@
       "method": "POST",
       "path": "/api/downloader/tiktok-v2",
       "responseType": "json",
-      "example": "async function download() {\n   const res = await fetch('/api/downloader/tiktok-v2', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://www.tiktok.com/@alenkainventra/video/7351044913112321288\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function download() {\n   const res = await fetch('/api/downloader/tiktok-v2', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://www.tiktok.com/video/7351044913112321288\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
@@ -1628,7 +1628,7 @@
           "name": "url",
           "in": "body",
           "type": "string",
-          "description": "URL publik file video MP4 (contoh: https://github.com/purujawa06-bot/My-db/raw/refs/heads/main/video/videoplayback.mp4).",
+          "description": "URL publik file video MP4 (masukan url video.mp4).",
           "required": true
         }
       ]
@@ -1658,7 +1658,7 @@
       "method": "POST",
       "path": "/api/tools/dubbing",
       "responseType": "json",
-      "example": "async function startDubbing() {\n   const res = await fetch('/api/tools/dubbing', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"https://github.com/purujawa06-bot/My-db/raw/refs/heads/main/video/english-conversation-have-a-coffee-with-tim-shorts-ytshorts.savetube.vip.mp4\",\n       \"voice\": \"id-ID\",\n       \"prompt\": \"Santai Dan Gaul Bro\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function startDubbing() {\n   const res = await fetch('/api/tools/dubbing', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n       \"url\": \"Masukin url vidio \",\n       \"voice\": \"id-ID\",\n       \"prompt\": \"Santai Dan Gaul Bro\"\n     })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
@@ -1690,7 +1690,7 @@
       "method": "POST",
       "path": "/api/tools/ghibli",
       "responseType": "json",
-      "example": "// Contoh penggunaan SSE\n async function ghibliTransform() {\n   const response = await fetch('/api/tools/ghibli', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n        \"url\": \"https://puruboy-api.vercel.app/example.jpg\",\n        \"prompt\": \"Jadikan ghibli\"\n     })\n   });\n   \n   const reader = response.body.getReader();\n   // Read stream...\n }",
+      "example": "// Contoh penggunaan SSE\n async function ghibliTransform() {\n   const response = await fetch('/api/tools/ghibli', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \n        \"url\": \"example.jpg\",\n        \"prompt\": \"Jadikan ghibli\"\n     })\n   });\n   \n   const reader = response.body.getReader();\n   // Read stream...\n }",
       "params": [
         {
           "name": "url",
@@ -1715,7 +1715,7 @@
       "method": "POST",
       "path": "/api/tools/hdvideo",
       "responseType": "json",
-      "example": "async function makeHD() {\n   const res = await fetch('/api/tools/hdvideo', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"https://puruboy-api.vercel.app/example.mp4\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
+      "example": "async function makeHD() {\n   const res = await fetch('/api/tools/hdvideo', {\n     method: 'POST',\n     headers: { 'Content-Type': 'application/json' },\n     body: JSON.stringify({ \"url\": \"example.mp4\" })\n   });\n   const data = await res.json();\n   console.log(data);\n }",
       "params": [
         {
           "name": "url",
