@@ -233,7 +233,7 @@ export default async function HomePage() {
                                 </a>
                             ))}
                             <a 
-                                href="https://github.com/purujawa06-bot/Na-api"
+                                href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="native-card min-w-[100px] w-[100px] p-3 flex flex-col items-center justify-center gap-2 snap-start border border-dashed border-gray-700 hover:border-accent hover:bg-accent/5 transition-all group"
@@ -259,14 +259,14 @@ export default async function HomePage() {
                     Official Domains demo
                 </h3>
                 <div className="space-y-2">
-                    <a href="https://www.puruboy.kozow.com" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
+                    <a href="https://jansenxpuru.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
                             <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors">https://jansenxpuru-apis.vercel.app</span>
                         </div>
                         <span className="text-[9px] bg-green-500/10 text-green-400 px-2 py-1 rounded-full font-bold uppercase tracking-wider border border-green-500/20">Stabil</span>
                     </a>
-                    <a href="https://puruboy-api.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
+                    <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between bg-input/50 hover:bg-input p-3 rounded-xl border border-default transition-all group">
                         <div className="flex items-center gap-2">
                             <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
                             <span className="text-xs font-mono text-gray-300 group-hover:text-accent transition-colors"></span>
