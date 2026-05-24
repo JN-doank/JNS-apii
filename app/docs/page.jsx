@@ -3,9 +3,9 @@ import { getDocsSpec } from '../../lib/docsService';
 import DocsClient from '../../components/DocsClient';
 
 export const metadata = {
-    title: 'Dokumentasi Lengkap | PuruBoy API',
+    title: 'Dokumentasi Lengkap | Jansen API',
     description: 'Jelajahi endpoint PuruBoy API. Dokumentasi interaktif untuk fitur AI, Downloader, Anime, dan Tools lainnya.',
-    keywords: ['Dokumentasi API', 'API Docs', 'PuruBoy Endpoints', 'Cara menggunakan PuruBoy API']
+    keywords: ['Dokumentasi API', 'API Docs', 'JansenXpuru Endpoints', 'Cara menggunakan JansenXpuru API']
 };
 
 export const revalidate = 3600;
