@@ -18,26 +18,26 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://puruboy-api.vercel.app'),
   title: {
-    default: 'PuruBoy API - Platform API Modular & Tools AI Gratis',
-    template: '%s | PuruBoy API'
+    default: 'Jansenxpuru API - Platform API Modular & Tools AI Gratis',
+    template: '%s | JansenXpuru API'
   },
-  description: 'PuruBoy API menyediakan layanan REST API gratis untuk developer. Fitur mencakup AI Chat, Text to Image, Downloader (TikTok, YouTube, IG), Anime Streaming, dan Tools bermanfaat lainnya. Cepat, stabil, dan mudah diintegrasikan.',
-  keywords: ['PuruBoy API', 'REST API Gratis', 'API AI Indonesia', 'TikTok Downloader API', 'YouTube API', 'Anime API', 'Web Tools', 'Developer Resources'],
-  authors: [{ name: 'PuruBoy' }],
-  creator: 'PuruBoy',
+  description: 'Jansenxpuru API menyediakan layanan REST API gratis untuk developer. Fitur mencakup AI Chat, Text to Image, Downloader (TikTok, YouTube, IG), Anime Streaming, dan Tools bermanfaat lainnya. Cepat, stabil, dan mudah diintegrasikan.',
+  keywords: ['jansenxpuru API', 'REST API Gratis', 'API AI Indonesia', 'TikTok Downloader API', 'YouTube API', 'Anime API', 'Web Tools', 'Developer Resources'],
+  authors: [{ name: 'Jansen' }],
+  creator: 'Jansen',
   openGraph: {
-    title: 'PuruBoy API - Solusi API Modular & Cepat',
+    title: 'Jansenxpuru API - Solusi API Modular & Cepat',
     description: 'Akses ratusan endpoint API gratis untuk AI, Downloader, dan Anime. Dokumentasi lengkap dan respons cepat.',
-    url: 'https://puruboy-api.vercel.app',
-    siteName: 'PuruBoy API',
+    url: 'https://jansenxpuru-apii.vercel.app',
+    siteName: 'jansenxpuru API',
     locale: 'id_ID',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PuruBoy API - Platform API & Tools AI',
+    title: 'jansenxpuru API - Platform API & Tools AI',
     description: 'Platform API gratis dengan fitur AI, Downloader, dan Anime.',
-    creator: '@puruboy',
+    creator: '@jansenxpuru',
   },
   robots: {
     index: true,
