@@ -6,8 +6,8 @@ import { getDocsSpec } from '../lib/docsService';
 export const revalidate = 3600;
 
 export const metadata = {
-    title: 'PuruBoy API - Home',
-    description: 'Beranda PuruBoy API. Temukan berbagai REST API gratis untuk kebutuhan proyek aplikasi Anda.',
+    title: 'JansenXPuruApI- Home',
+    description: 'JansenXpuru API. Temukan berbagai REST API gratis untuk kebutuhan proyek aplikasi Anda.',
 };
 
 const Hero = () => (
