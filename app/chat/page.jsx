@@ -466,7 +466,7 @@ export default function ChatPage() {
                             <i className="fas fa-hashtag text-2xl text-[#5865f2]"></i>
                         </div>
                         <h2 className="text-xl font-bold text-[#f2f3f5] mb-2">Welcome to #general</h2>
-                        <p className="text-sm">This is the start of the PuruBoy Community server.</p>
+                        <p className="text-sm">This is the start of the jansenxpuru Community server.</p>
                     </div>
                 ) : (
                     <Virtuoso
