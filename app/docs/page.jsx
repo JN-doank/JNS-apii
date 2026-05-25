@@ -4,7 +4,7 @@ import DocsClient from '../../components/DocsClient';
 
 export const metadata = {
     title: 'Dokumentasi Lengkap | Jansen API',
-    description: 'Jelajahi endpoint PuruBoy API. Dokumentasi interaktif untuk fitur AI, Downloader, Anime, dan Tools lainnya.',
+    description: 'Jelajahi endpoint Jansenxpuru API. Dokumentasi interaktif untuk fitur AI, Downloader, Anime, dan Tools lainnya.',
     keywords: ['Dokumentasi API', 'API Docs', 'JansenXpuru Endpoints', 'Cara menggunakan JansenXpuru API']
 };
 
